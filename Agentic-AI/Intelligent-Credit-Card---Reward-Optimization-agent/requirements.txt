@@ -1,0 +1,25 @@
+# Core LLM & Agent Framework
+langchain==0.3.25
+langchain-openai==0.3.19
+langchain-community==0.3.24
+langgraph==0.4.8
+openai==1.93.0
+
+# Database
+psycopg>=3.1.18
+pgvector==0.3.6
+sqlalchemy==2.0.41
+
+# UI
+streamlit==1.41.0
+
+# Monitoring & Tracing
+langsmith==0.3.45
+
+# Utilities
+python-dotenv==1.1.1
+pydantic>=2.8.0,<2.12.0
+pandas>=2.0.0,<3.0.0
+tiktoken>=0.7.0
+httpx>=0.24.0
+tenacity>=8.0.0
